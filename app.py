@@ -7,8 +7,8 @@ import math
 import time
 
 START_TIME = time.time()
-TEST_FOLDER_PATH = "/Users/vasanthmahendran/Workspace/Data/nbc_new/test_new_1"
-TRAIN_FOLDER_PATH = "/Users/vasanthmahendran/Workspace/Data/nbc_new/train_new"
+TEST_FOLDER_PATH = "/Users/Data/nbc_new/test_new_1"
+TRAIN_FOLDER_PATH = "/Users/Data/nbc_new/train_new"
 COLUMN_NAMES = ['Ratings', 'AuthorLocation', 'Title', 'Author', 'ReviewID', 'Content', 'Date']
 STEMMER = PorterStemmer()
 class NaiveBayesClassification(object):
